@@ -1,0 +1,544 @@
+body { font-family: 'Montserrat', sans-serif; background-color: #0d1110; }
+
+.col { padding: 0px !important; }
+
+.container { padding: 0px !important; }
+
+.row { margin: 0px !important; }
+
+/*HEADER*/
+
+                                                /*Jumbotron*/
+
+.jumbotron {
+    background-image: url(https://photowebexpo.ru/assets/images/NEWS/TECHNIC/Leica/M10-P-SC-Asset/PhotoWebExpo-Leica-M10-P-SC-Asset-samaya-krasivaya-kamera-0.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 0px 0px 10px 10px;
+    margin-bottom: 5px !important;
+    margin: 0px !important;
+}
+
+.brand-title { text-align: left; color: ghostwhite; font-weight: 200; }
+
+.brand-subtitle {  text-align: left; color: ghostwhite; font-weight: 200; }
+
+                                                /*Top Menu*/
+
+.dws-menu { background-color: #191919; width: 100%; border-radius: 10px; margin-top: 1%; }
+
+ul.dws-ul {
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    margin-bottom: 1%;
+}
+   
+li.dws-li {
+    list-style: none;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 3%;
+    padding-left: 3%;
+}
+
+li.dws-li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #ffffff;
+    position: relative;
+    padding: 5px;
+}
+
+li.home {
+    list-style: none;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 3%;
+    padding-left: 3%;
+}
+
+li.home a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #ffffff;
+    position: relative;
+    padding: 5px;
+}
+
+li.dws-li a::before {
+    content: '';
+    width: 0;
+    height: 3px;
+    background-color: #ab6b13;
+    position: absolute;
+    top: 90%;
+    left: 0;
+    transition: .5s;
+}
+
+li.dws-li a::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background-color: #d3d3d3;
+    position: absolute;
+    top: 90%;
+    right: 0;
+    transition: .5s;
+}
+
+li.home a::before {
+    content: '';
+    width: 35px;
+    height: 3px;
+    background-color: #ab6b13;
+    position: absolute;
+    top: 90%;
+    right: 0;
+}
+
+li.home a::after {
+    content: '';
+    width: 35px;
+    height: 3px;
+    background-color: #d3d3d3;
+    position: absolute;
+    top: 90%;
+    left: 0;
+}
+
+li.dws-li:hover { background-color: #0d1110; }
+
+li.dws-li:hover a::before { width: 50%; transform: translateX(100%); }
+
+li.dws-li:hover a::after { width: 50%; transform: translateX(-100%); }
+
+li.dws-li a:hover { color: #ab6b13; }
+
+/*MAIN*/
+
+main { color: black; border-radius: 10px; }
+
+                                            /*Author*/
+
+.andrew { width: 350px; height: 230px; border-radius: 10px; }
+
+.author {
+    display: flex;
+    justify-content: center;
+    background-color: #0d1110;
+    border-radius: 5px;
+    flex-wrap: wrap;
+}
+
+.author-title, .author-subtitle { color: #d3d3d3; margin-top: 1%; }
+
+.text { color: #d3d3d3; margin-top: 2%; font-size: 14px; }
+
+.fa-envelope, .fa-phone-square { color: #d3d3d3; }
+
+.contacts { color: #d3d3d3; }
+
+                                            /*Services n Portfolio*/
+
+.orders-name {
+    margin-top: 2%; 
+    text-align: center;
+    color: #d3d3d3;
+    font-weight: 400;
+}
+
+.price {
+    text-align: center;
+    color: #d3d3d3;
+    font-weight: 400;
+}
+
+.bbtn {
+    text-align: center;
+    padding: 13px 80px;
+    font-size: 15px;
+    color: #d3d3d3;
+    background-color: #ab6b13;
+    border: none;
+    border-bottom: 4px solid #ccac00;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-left: 10%;
+}
+
+.bbtn:hover {
+    transition: all 0.5px;
+    background-color: #ccac00;
+    color: #d3d3d3;
+    border-bottom: 4px solid #ab6b13;
+    text-decoration: underline;
+}
+  
+.bbtn:focus {
+    box-shadow: #ab6b13 0px 0px 20px;
+    border-radius: 10px;
+}
+  
+.bbtn:active {
+    box-shadow: #ab6b13 0px 0px 20px;
+    border-radius: 10px;
+}
+
+.services-title, .portfolio-title {
+    text-align: center;
+    color: #d3d3d3;
+    text-decoration: underline;
+    margin-top: 2%;
+}
+
+.portfolio {
+    display: flex;
+    justify-content: center;
+    background-color: #d3d3d3;
+    border-radius: 5px 5px 0 0;
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+    background-color: #0d1110;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.services-adv, .advantages {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.service-item, .advantage-item { width: 30%; margin-bottom: 2%; }
+
+.adv-2 { margin: 0px !important; }
+
+.adv-img { width: 260px; height: 400px; }
+
+.srvc-img { width: 260px; height: 260px; }
+
+.block {
+    display: flex;
+    justify-content: center;
+    border-radius: 0 0 5px 5px;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+}
+
+.citate {
+    list-style-type: none;
+    margin-top: 1%;
+    padding: 5%;
+    color: #0d1110;
+}
+
+.frank { color: #ab6b13; text-decoration: underline; }
+
+.lapki { color: #ab6b13; font-size: 24px; font-family: 'Pacifico', cursive; }
+
+/*FOOTER*/
+
+footer { background-color: #0d1110; padding: 40px 10px; color: #ab6b13; }
+
+.footer-left a { color: #ab6b13; margin-right: 20px; }
+
+.footer-right a { color: #ab6b13; margin-left: 20px; }
+
+.footer-right a:hover { text-decoration: none; }
+
+.footer-left a:hover { color: #ccac00; }
+
+.footer-right a i:hover { color: #ccac00; }
+
+/*SELECTION*/
+
+::selection { color: #ffffff; background-color: #ccac00; }
+
+/*SCROLL BAR*/
+
+::-webkit-scrollbar-button { background-image: url(); background-repeat: no-repeat; width: 6px; height: 0px; }
+
+::-o-scrollbar-button { background-image: url(); background-repeat: no-repeat; width: 6px; height: 0px; }
+
+::-moz-scrollbar-button { background-image: url(); background-repeat: no-repeat; width: 6px; height: 0px; }
+
+::-ms-scrollbar-button { background-image: url(); background-repeat: no-repeat; width: 6px; height: 0px; }
+
+/*----------------------------------------*/
+ 
+::-webkit-scrollbar-track { background-color: #0d1110; box-shadow: 0px 0px 2px #0d1110 inset; }
+
+::-o-scrollbar-track { background-color: #0d1110; box-shadow: 0px 0px 2px #0d1110 inset; }
+
+::-moz-scrollbar-track { background-color: #0d1110; box-shadow: 0px 0px 2px #0d1110 inset; }
+
+::-ms-scrollbar-track { background-color: #0d1110; box-shadow: 0px 0px 2px #0d1110 inset; }
+
+/*----------------------------------------*/
+ 
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    background-color: #ab6b13;
+    box-shadow: 0px 1px 1px #ab6b13 inset;
+}
+
+::-o-scrollbar-thumb {
+    -o-border-radius: 0;
+    border-radius: 0;
+    background-color: #ab6b13;
+    box-shadow: 0px 1px 1px #ab6b13 inset;
+}
+
+::-moz-scrollbar-thumb {
+    -moz-border-radius: 0;
+    border-radius: 0;
+    background-color: #ab6b13;
+    box-shadow: 0px 1px 1px #ab6b13 inset;
+}
+
+::-ms-scrollbar-thumb {
+    -ms-border-radius: 0;
+    border-radius: 0;
+    background-color: #ab6b13;
+    box-shadow: 0px 1px 1px #ab6b13 inset;
+}
+
+/*----------------------------------------*/
+ 
+::-webkit-scrollbar-thumb:hover {
+    -webkit-border-radius: 5px;
+    border-radius: 0;
+    background-color: #ccac00;
+    box-shadow: 0px 1px 1px #ccac00 inset;
+}
+
+::-o-scrollbar-thumb:hover {
+    -o-border-radius: 5px;
+    border-radius: 0;
+    background-color: #ccac00;
+    box-shadow: 0px 1px 1px #ccac00 inset;
+}
+
+::-moz-scrollbar-thumb:hover {
+    -moz-border-radius: 5px;
+    border-radius: 0;
+    background-color: #ccac00;
+    box-shadow: 0px 1px 1px #ccac00 inset;
+}
+
+::-ms-scrollbar-thumb:hover {
+    -ms-border-radius: 5px;
+    border-radius: 0;
+    background-color: #ccac00;
+    box-shadow: 0px 1px 1px #ccac00 inset;
+}
+
+/*----------------------------------------*/
+ 
+::-webkit-resizer { background-image: url(); background-repeat: no-repeat; width: 7px; height: 0px; }
+
+::-o-resizer { background-image: url(); background-repeat: no-repeat; width: 7px; height: 0px; }
+
+::-moz-resizer { background-image: url(); background-repeat: no-repeat; width: 7px; height: 0px; }
+
+::-ms-resizer { background-image: url(); background-repeat: no-repeat; width: 7px; height: 0px; }
+
+/*----------------------------------------*/
+ 
+::-webkit-scrollbar { width: 9px; }
+
+::-o-scrollbar { width: 9px; }
+
+::-moz-scrollbar { width: 9px; }
+
+::-ms-scrollbar { width: 9px; }
+
+/*MEDIA*/
+
+@media only screen and (max-width: 1024px) {
+
+    .andrew { width: 80%; height: 80%; }
+
+    .portfolio-title, .services-title { font-size: 26px; }
+
+    .service-item, .advantage-item { width: 40%; margin-bottom: 7%; }
+
+    .author-title, .author-subtitle { margin-top: 2%; }
+}
+
+@media only screen and (max-width: 720px) {
+
+    .portfolio-title, .services-title { font-size: 22px; }
+
+    .service-item, .advantage-item { width: 50%; margin-bottom: 2%; }
+
+    .adv-img { width: 240px; height: 380px; }
+
+    .srvc-img { width: 240px; height: 240px; }
+
+}
+
+@media (min-width: 500px) and (max-width: 720px) {
+
+    .contacts { font-size: 16px; }
+
+    .brand-title { font-size: 16px; }
+
+    .brand-subtitle { font-size: 14px; }
+
+    .service-item, .advantage-item { width: 40%; margin-bottom: 2%; }
+
+    .adv-img { width: 200px; height: 340px; }
+
+    .srvc-img { width: 200px; height: 200px; }
+
+    .orders-name { font-size: 12px !important; text-align: center; }
+
+    .price { font-size: 12px !important; text-align: center; }
+
+    .bbtn { padding: 10px 50px; font-size: 14px; }
+
+}
+
+@media only screen and (max-width: 500px) {
+
+    .citate, .text { margin: 2%; }
+
+    .contacts { font-size: 16px; }
+
+    .jumbotron { padding: 20px !important; }
+
+    .brand-subtitle { font-size: 12px; }
+
+    .brand-title { font-size: 16px; }
+
+    li.dws-li {
+        margin-top: 1px !important;
+        margin-bottom: 1px !important;
+        margin-left: 5px !important;
+        margin-right: 5px !important;
+    }
+
+    li.home {
+        margin-top: 1px !important;
+        margin-bottom: 1px !important;
+        margin-left: 5px !important;
+        margin-right: 5px !important;
+    }
+
+    li.home a { font-size: 10px; }
+
+    li.home a::before {
+        content: '';
+        width: 21px;
+        height: 3px;
+        background-color: #ab6b13;
+        position: absolute;
+        top: 90%;
+        right: 0;
+    }
+
+    li.home a::after { 
+        content: '';
+        width: 21px;
+        height: 3px;
+        background-color: #d3d3d3;
+        position: absolute;
+        top: 90%;
+        right: 0;
+    }
+
+    li.dws-li a { font-size: 10px; }
+
+    li.home a { font-size: 10px; }
+
+    .andrew { width: 100%; height: 100%; }
+
+    .author-title { margin-top: 4%; font-size: 18px; }
+
+    .author-subtitle { font-size: 14px; }
+
+    .portfolio-title, .services-title { font-size: 22px; }
+
+    .service-item, .advantage-item { width: 100%; margin-bottom: 4%; }
+
+    .adv-img { width: 100%; height: 100%; }
+
+    .srvc-img { width: 260px; height: 260px; }
+}
+
+@media only screen and (max-width: 360px) {
+
+    .citate, .text { font-size: 10px; margin: 5%;}
+
+    .lapki, .frank { font-size: 14px; }
+
+    .jumbotron { padding: 20px !important; }
+
+    .brand-subtitle { font-size: 12px; }
+
+    .brand-title { font-size: 16px; }
+
+    li.dws-li {
+        margin-top: 1px !important;
+        margin-bottom: 1px !important;
+        margin-left: 5px !important;
+        margin-right: 5px !important;
+    }
+
+    li.home {
+        margin-top: 1px !important;
+        margin-bottom: 1px !important;
+        margin-left: 5px !important;
+        margin-right: 5px !important;
+    }
+
+    .contacts { font-size: 16px; }
+
+    li.dws-li a { font-size: 10px; }
+
+    li.home a { font-size: 10px; }
+
+    li.home a::before {
+        content: '';
+        width: 21px;
+        height: 3px;
+        background-color: #ab6b13;
+        position: absolute;
+        top: 90%;
+        right: 0;
+    }
+
+    li.home a::after { 
+        content: '';
+        width: 21px;
+        height: 3px;
+        background-color: #d3d3d3;
+        position: absolute;
+        top: 90%;
+        right: 0;
+    }
+
+    .andrew { width: 100%; height: 100%; }
+
+    .author-title { margin-top: 4%; font-size: 18px; }
+
+    .author-subtitle { font-size: 14px; }
+
+    .portfolio-title, .services-title { font-size: 20px; }
+
+    .service-item, .advantage-item { width: 100%; margin-bottom: 4%; }
+
+    .adv-img { width: 100%; height: 100%; }
+
+    .srvc-img { width: 260px; height: 260px; }
+}
